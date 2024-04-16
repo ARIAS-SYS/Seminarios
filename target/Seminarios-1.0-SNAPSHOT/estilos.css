@@ -1,0 +1,127 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2{
+    font-size: 18px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #555;
+}
+
+a{
+    display: inline-block;
+    padding: 15px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.75);
+}
+
+.blue{
+    background: blue;
+    color: white;
+    margin-bottom: 20px; 
+}
+
+.blue:hover{
+    background: #00009f;
+}
+.green{
+    background: green;
+    color: white;
+}
+
+.green:hover{
+    background: #009f00;
+}
+.red{
+    background: red;
+    color: white; 
+}
+
+.red:hover{
+    background: #9f0000;
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;    
+}
+
+th{
+    background: #eee;
+}
+
+th,td{
+    padding: 8px;
+    border: 1px solid #ddd;
+}
+
+.form{
+    display: flex;
+    gap: 40px;
+}
+
+.form-1{
+    flex: 2;
+    border: 2px solid #aaa;
+    padding: 20px 100px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.form-2{
+    flex: 1;
+    border: 2px solid #aaa;
+    padding: 20px 100px 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+input[type="submit"]{
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    cursor: pointer;
+    border: none;
+    box-shadow: 2px 2px 6px 2px rgba(0,0,0,0.75);
+    margin: 20px auto;
+}
+
+input[type="text"]{
+    width: 400px;
+    padding: 3px;
+    outline: none;
+}
+
+input[type="date"]{
+    padding: 3px;
+    outline: none;
+}
+
+.dato{
+    display: inline-block;
+    width: 80px;
+}
+
+.radio{
+    margin-right: 20px;
+}
